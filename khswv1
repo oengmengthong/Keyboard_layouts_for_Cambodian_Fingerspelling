@@ -1,0 +1,85 @@
+//
+//   khmer signwriting keyboard
+
+//   version:  0.0.1
+//
+//   date: 10.01.2023
+//
+//   author:  Oeng Mengthong
+//
+//
+
+
+partial default alphanumeric_keys
+xkb_symbols "mac" {
+    name[Group1]= "Khmer SignWriting Phonetic-based Keyboard Layout";
+    key.type[Group1] = "FOUR_LEVEL";
+
+// there are four levels defined:
+//
+//                 normal           shift			right-alt	right-alt + shift
+//
+
+//  keys: `1234567890-=\ //
+    key <TLDE> { [ guillemotleft, guillemotright] };​ // `
+    key <AE01> { [ 1D875, exclam] }; // 1
+    key <AE02> { [ 1D8A1, at] }; // 2
+    key <AE03> { [ 1D8A5, quotedbl ] }; // 3
+    key <AE04> { [ 1D859, dollar ] }; //4
+    key <AE05> { [ 1D857, percent, EuroSign ] }; // 5
+    key <AE06> { [ 1D8B8 ] }; // 6
+    key <AE07> { [ 1D8DD ] }; // 7
+    key <AE08> { [ 1D89D, asterisk ] }; // 8
+    key <AE09> { [ 1D858, parenleft, braceleft ] }; // 9
+    key <AE10> { [ 1D876, parenright, braceright ] }; // 0
+    key <AE11> { [ 1D8E4, x, voidsymbol ] }; // -
+    key <AE12> { [ 1D8CF, equal ] }; // =
+    key <BKSL> { [ 1D8BC, 1D8BB, backslash ] }; // \
+
+//  keys: qwertyuiop[]
+    key <AD01> { [ 1D850, 1D834 ] }; // q
+    key <AD02> { [ ] }; // w
+    key <AD03> { [ 1D8AA ] }; // e
+    key <AD04> { [ 1D81D, 1D8ED, 1D8EC ] }; // r
+    key <AD05> { [ 1D84A, 1D83E ] }; // t
+    key <AD06> { [ 1D88C ] }; // y
+    key <AD07> { [ ] }; // u
+    key <AD08> { [ 1D8E5 ] }; // i
+    key <AD09> { [ ] }; // o
+    key <AD10> { [ 1D813, 1D828, 1D8BD ] }; // p
+    key <AD11> { [ 1D8E7 ] }; // [
+    key <AD12> { [ 1D8E9, 1D8E6 ] }; // ]
+
+//  keys: asdfghjkl;'
+    key <AC01> { [ ] }; // a
+    key <AC02> { [ 1D896 ] }; // s
+    key <AC03> { [ 1D8CC, 1D829 ] }; // d
+    key <AC04> { [ 1D89C, 1D844 ] }; // f
+    key <AC05> { [ 1D842, 1D8B5 ] }; // g
+    key <AC06> { [ 1D898 ] }; // h
+    key <AC07> { [ 1D893 ] }; // j
+    key <AC08> { [ 1D873, 1D816 ] }; // k
+    key <AC09> { [ 1D82C, 1D8C4 ] };  // l
+    key <AC10> { [ ] }; // ;
+    key <AC11> { [ ] }; // '
+
+//  keys: zxcvbnm,./
+    key <AB01> { [ 1D8C6, 1D8BA ] }; // z
+    key <AB02> { [ 1D806, 1D8A4 ] }; // x
+    key <AB03> { [ 1D845, 1D8B4 ] }; // c
+    key <AB04> { [ 1D82E ] }; // v
+    key <AB05> { [ 1D8A0, 1D846 ] }; // b
+    key <AB06> { [ 1D895, 1D8EF ] }; // n
+    key <AB07> { [ 1D848 ] }; // m
+    key <AB08> { [ comma ] }; // ,
+    key <AB09> { [ period ] }; // .
+    key <AB10> { [ question, slash ] }; // /
+
+    key <SPCE> { [ space, space ] };
+    
+    key <RALT>  { type[Group1]="TWO_LEVEL",
+                [ ISO_Level3_Shift, Multi_key ]   };
+    modifier_map Mod5   { <RALT> };
+    
+    // End alphanumeric section
+};

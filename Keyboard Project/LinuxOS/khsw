@@ -1,0 +1,85 @@
+//
+//   khmer signwriting keyboard
+
+//   version:  0.0.1
+//
+//   date: 10.01.2023
+//
+//   author:  Oeng Mengthong
+//
+//
+
+
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+    name[Group1]= "Khmer SignWriting";
+    key.type[Group1] = "FOUR_LEVEL";
+
+// there are four levels defined:
+//
+//                 normal           shift			right-alt	right-alt + shift
+//
+
+//  keys: `1234567890-=\ //
+    key <TLDE> { [ guillemotleft, guillemotright] };​ // `
+    key <AE01> { [ U1D875, exclam] }; // 1
+    key <AE02> { [ U1D8A1, at] }; // 2
+    key <AE03> { [ U1D8A5, quotedbl ] }; // 3
+    key <AE04> { [ U1D859, dollar ] }; //4
+    key <AE05> { [ U1D857, percent, EuroSign ] }; // 5
+    key <AE06> { [ U1D8B8 ] }; // 6
+    key <AE07> { [ U1D8DD ] }; // 7
+    key <AE08> { [ U1D89D, asterisk ] }; // 8
+    key <AE09> { [ U1D858, parenleft, braceleft ] }; // 9
+    key <AE10> { [ U1D876, parenright, braceright ] }; // 0
+    key <AE11> { [ U1D8E4, - ] }; // -
+    key <AE12> { [ U1D8CF, equal ] }; // =
+    key <BKSL> { [ U1D8BC, U1D8BB, backslash ] }; // \
+
+//  keys: qwertyuiop[]
+    key <AD01> { [ U1D850, U1D834 ] }; // q ឆ ឈ
+    key <AD02> { [ U1D809, U1D819] }; // w ឹ ឺ
+    key <AD03> { [ U1D863, U1D864] }; // e េ ែ
+    key <AD04> { [ U1D81D, U1D8ED, U1D8EC ] }; // r រ ឬ
+    key <AD05> { [ U1D84A, U1D83E ] }; // t ត ទ
+    key <AD06> { [ U1D88C, U1D8CB ] }; // y យ ួ
+    key <AD07> { [ U1D8C8, U1D8C9 ] }; //  ុ ូ
+    key <AD08> { [ U1D85C, U1D85E ] }; // i ិ ី
+    key <AD09> { [ U1D868, U1D867] }; // o ោ ៅ
+    key <AD10> { [ U1D813, U1D828, U1D8BD ] }; // p ផ ភ
+    key <AD11> { [ U1D869, U1D86A ] }; // [ ៀ ឿ
+    key <AD12> { [ U1D8E9, U1D8E6 ] }; // ] ឪ ឧ
+
+//  keys: asdfghjkl;'
+    key <AC01> { [ U1D879 ] }; // a ា 
+    key <AC02> { [ U1D896 ] }; // s ស ៃ
+    key <AC03> { [ U1D8CC, U1D829 ] }; // d ដ ឌ
+    key <AC04> { [ U1D89C, U1D844 ] }; // f ថ ធ
+    key <AC05> { [ U1D842, U1D8B5 ] }; // g ង អ
+    key <AC06> { [ U1D898 ] }; // h ហ ះ
+    key <AC07> { [ U1D893 ] }; // j ញ
+    key <AC08> { [ U1D873, U1D816 ] }; // k ក គ 
+    key <AC09> { [ U1D82C, U1D8C4 ] };  // l ល ឡ
+    key <AC10> { [ U1D87F ] }; // ; ើ 
+    key <AC11> { [ U1D929, U1D928 ] }; // ' ់   ៉
+
+//  keys: zxcvbnm,./
+    key <AB01> { [ U1D8C6, U1D8BA ] }; // z ឋ ឍ
+    key <AB02> { [ U1D806, U1D8A4 ] }; // x ខ ឃ
+    key <AB03> { [ U1D845, U1D8B4 ] }; // c ច ជ
+    key <AB04> { [ U1D82E, U1D919 ] }; // v វ 
+    key <AB05> { [ U1D8A0, U1D846 ] }; // b ប ព
+    key <AB06> { [ U1D895, U1D8EF ] }; // n ន ណ
+    key <AB07> { [ U1D848, U1D91C ] }; // m ម ំ
+    key <AB08> { [ comma ] }; // , ៼ ៻
+    key <AB09> { [ period ] }; // . ។ ៕
+    key <AB10> { [ U1D9DA, question, slash ] }; // /  ៊  ?
+
+    key <SPCE> { [ space ] };
+    
+    key <RALT>  { type[Group1]="TWO_LEVEL",
+                [ ISO_Level3_Shift, Multi_key ]   };
+    modifier_map Mod5   { <RALT> };
+    
+    // End alphanumeric section
+};
