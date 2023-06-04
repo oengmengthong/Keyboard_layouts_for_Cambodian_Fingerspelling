@@ -1,6 +1,6 @@
 {
   "tablet": {
-    "font": "Tahoma",
+    "font": "SuttonSignWriting",
     "layer": [
       {
         "id": "default",
@@ -658,10 +658,11 @@
           }
         ]
       }
-    ]
+    ],
+    "fontsize": ""
   },
   "phone": {
-    "font": "Tahoma",
+    "font": "SuttonSignWriting",
     "layer": [
       {
         "id": "default",
@@ -1311,6 +1312,7 @@
           }
         ]
       }
-    ]
+    ],
+    "fontsize": ""
   }
 }

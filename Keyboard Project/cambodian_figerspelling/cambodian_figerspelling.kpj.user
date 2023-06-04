@@ -1,78 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KeymanDeveloperProjectUser>
   <ViewState>
-    <tab>0</tab>
+    <tab>1</tab>
     <showhelp>1</showhelp>
-    <path>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\cambodian_figerspelling.kpj</path>
+    <path>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\cambodian_figerspelling.kpj</path>
   </ViewState>
   <FileStates>
     <FileState>
       <ID>id_e56be6c3cf0dc3de9287ad1d8d46bb68</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\cambodian_figerspelling.kmn</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\cambodian_figerspelling.kmn</FullPath>
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
-        <DebugFont>Consolas|-9|   |0</DebugFont>
-        <CodeFont>Consolas|-9|   |0</CodeFont>
-        <CharFont>Consolas|-9|   |0</CharFont>
+        <DebugFont>Consolas|9|   |0</DebugFont>
+        <CodeFont>Consolas|9|   |0</CodeFont>
+        <CharFont>Consolas|9|   |0</CharFont>
       </IDEState>
-      <Debug>False</Debug>
+      <Debug>True</Debug>
     </FileState>
     <FileState>
       <ID>id_5ec6850e138ff9744fc047a1af6bd1cb</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\cambodian_figerspelling.kps</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\cambodian_figerspelling.kps</FullPath>
     </FileState>
     <FileState>
       <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\HISTORY.md</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\HISTORY.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\LICENSE.md</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\LICENSE.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\README.md</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\README.md</FullPath>
     </FileState>
     <FileState>
       <ID>id_409e7e0c32e81bd668b52b20d386ccbb</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\cambodian_figerspelling.keyboard_info</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_8f840556b40fc2d5a185da061ac3484c</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\Untitled.kmn</FullPath>
-      <IDEState>
-        <LayoutDisplay102Key>0</LayoutDisplay102Key>
-        <DebugDefaultFont>1</DebugDefaultFont>
-        <DebugFont>Consolas|-9|   |0</DebugFont>
-        <CodeFont>Consolas|-9|   |0</CodeFont>
-        <CharFont>Consolas|-9|   |0</CharFont>
-      </IDEState>
-      <Debug>False</Debug>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\cambodian_figerspelling.keyboard_info</FullPath>
     </FileState>
     <FileState>
       <ID>id_df922ad118ed13e3025be5e926eaa690</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\cambodian_figerspelling.ico</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\cambodian_figerspelling.ico</FullPath>
     </FileState>
     <FileState>
       <ID>id_909d3ca8236d558f0a7c75f021c5984c</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\..\build\cambodian_figerspelling.kmx</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\..\build\cambodian_figerspelling.kmx</FullPath>
     </FileState>
     <FileState>
       <ID>id_c01f8dd88b9e5581e7e38b1d86ff4f09</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\..\build\cambodian_figerspelling.js</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\..\build\cambodian_figerspelling.js</FullPath>
     </FileState>
     <FileState>
       <ID>id_dbed1c477b06beb4fd64108618c38a0a</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\..\build\cambodian_figerspelling.kvk</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\..\build\cambodian_figerspelling.kvk</FullPath>
     </FileState>
     <FileState>
       <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\welcome.htm</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\welcome.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_8da344c4cea6f467013357fe099006f5</ID>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\readme.htm</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\readme.htm</FullPath>
     </FileState>
   </FileStates>
   <MRU>
@@ -80,7 +68,7 @@
       <ID>id_MRU0</ID>
       <Filename>cambodian_figerspelling.kmn</Filename>
       <FileType>.kmn</FileType>
-      <FullPath>C:\Users\oengm\Documents\Keyman Developer\Projects\cambodian_figerspelling\source\cambodian_figerspelling.kmn</FullPath>
+      <FullPath>D:\Keyboard_layouts_for_Cambodian_Fingerspelling\Keyboard Project\cambodian_figerspelling\source\cambodian_figerspelling.kmn</FullPath>
     </File>
   </MRU>
 </KeymanDeveloperProjectUser>
