@@ -5,11 +5,10 @@
     <kbdname>cambodian_figerspelling</kbdname>
     <flags>
       <displayunderlying/>
-      <usealtgr/>
     </flags>
   </header>
   <encoding name="unicode" fontname="SignWriting 2010" fontsize="12">
-    <layer shift="SLA">
+    <layer shift="SA">
       <key vkey="K_QUOTE">𝤙</key>
       <key vkey="K_EQUAL">𝤈</key>
       <key vkey="K_E">𝢪</key>
@@ -100,7 +99,7 @@
       <key vkey="K_Y">𝢌</key>
       <key vkey="K_Z">𝣆</key>
     </layer>
-    <layer shift="LA">
+    <layer shift="A">
       <key vkey="K_0">𝤾</key>
       <key vkey="K_O">𝣥</key>
       <key vkey="K_R">𝣬</key>
